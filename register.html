@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./register.css">
+  <title>Crazy Town Library (register-page)</title>
+</head>
+
+<body>
+  <nav class="nav1">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <label class="logo"><img src="CTL-logo.png"></label>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sign In</a></li>
+      <a class="cta" href="#"><button>Register</button></a>
+      <li><i class="fa fa-fw fa-search"></i></li>
+      <li><input type="text" placeholder=""></li>
+    </ul>
+  </nav>
+
+  <nav class="nav2">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a href="#">Events</a></li>
+    </ul>
+  </nav>
+
+  <div class="logo1">
+    <img src="CTL-Logo.png">
+  </div>
+
+  <div class="title">
+    <h1>Explore today, discover tomorrow</h1>
+  </div>
+
+  <div class="title2">
+    <h1>REGISTER TODAY</h1>
+  </div>
+
+  <div class="login">
+    <h3>Already have an account? Login</h3>
+  </div>
+
+  <div class="container">
+    <form action="#">
+      <div>
+        <h2 class="form-title">Your Information</h2>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="first Name">First Name:</label>
+            <input type="text" id="firstlName" name="firstName" placeholder="Enter First Name" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Age" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="student">Student:</label>
+            <input type="text" id="student" name="student" placeholder="Student" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="student">Parent/Guardian:</label>
+            <input type="text" id="parent/guardian" name="parent/guardian" placeholder="parent/guardian" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="form-title">Address</h2>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="address" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="lastname">City, State, Zip:</label>
+            <input type="text" id="city, state, zip" name="city, state, zip" placeholder="City, State, Zip:" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="form-title">Choose Your Password</h2>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="address">Password:</label>
+            <input type="text" id="password" name="address" placeholder="Password" />
+          </div>
+
+          <div class="user-input-box">
+            <label for="password">Confirm Password:</label>
+            <input type="text" id="confirm password" name="confirm password" placeholder="Confirm Password" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <h5>Password Strength</h5>
+            <p>Must Contain 8 Characters minimum Must contain one special charater One Uppercase Letter</p>
+          </div>
+        </div>
+      </div>
+       <hr />
+       <div class="terms">
+      <div>
+        <input type="checkbox" value="terms" id="terms" onclick="activateButton(this)">  
+        I Confirm that I have read and agree to the<a href="#"> terms of service.</a> 
+      </div>
+
+      <div class="form-submit-btn"> 
+        <input type="submit" value="REGISTER" style="background-color: #e63946;">   
+      </div> 
+       </div> 
+
+    </form>     
+  </div>
+   <footer>
+    <p>COPYRIGHT © 2023 CRAZY TOWN LIBRARY. ALL RIGHTS RESERVED</p>
+  </footer> 
+
+</body>
+
+</html>

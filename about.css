@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* text-decoration: none; */
+  /* list-style: none; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+
+}
+
+.nav1 {
+  background: #457b9d;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav2 {
+  background-color: #f1faee;
+}
+
+.logo {
+  color: white;
+  width: 100px;
+
+}
+
+.nav1 ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.nav2 ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+  justify-content: center;
+}
+
+.nav1 ul li a {
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav2 ul li a {
+  color: black;
+  font-size: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+a:hover,
+a.active {
+  background: none;
+  color: #0082e6;
+}
+
+#check:checked~ul {
+  left: 0;
+}
+
+button {
+  background-color: #e63946;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+button:hover {
+  background-color: white;
+}
+
+.container-img img {
+  width: 100%;
+}
+
+.text-mission {
+  text-align: center;
+  padding: 30px;
+
+}
+
+.mission-content {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.container {
+  background-color: #1d3557;
+}
+
+.vision-title {
+  text-align: center;
+  padding: 20px;
+  color: white;
+
+}
+
+.vision-img {
+  padding: 20px;
+  width: 100%;
+
+}
+
+.vision-text {
+  color: white;
+  padding: 10px
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  width: 80%;
+  margin: 10px auto;
+}
+
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px auto;
+  border-radius: 25px;
+  /* height: 354px; */
+  box-shadow: 0px 4px 4px 0px;
+}
+
+.mid-text {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #457B9D;
+  color: white;
+  position: sticky;
+  bottom: 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .mission-content {
+    display: flex;
+  }
+
+  .container-vision {
+    display: flex;
+  }
+
+  button {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mission-content {
+    display: flex;
+  }
+
+ .container-vision {
+    display: flex;
+  }
+
+  button {
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (min-width: 992px) {}
